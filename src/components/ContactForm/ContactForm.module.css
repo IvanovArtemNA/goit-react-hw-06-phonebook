@@ -1,0 +1,28 @@
+.button {
+  margin: 0 auto;
+  padding: 10px;
+
+  border: transparent;
+  outline: transparent;
+
+  transition: all 250ms;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: #8a2be2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lable {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+.item {
+  list-style: none;
+}
+
+.remove {
+  align-items: center;
+  margin-left: 30px;
+  padding: 5px 10px;
+
+  border: transparent;
+  outline: transparent;
+
+  transition: all 250ms;
+
+  cursor: pointer;
+}
+
+.remove:hover,
+.remove:focus {
+  color: white;
+  background-color: #8a2be2;
+}
