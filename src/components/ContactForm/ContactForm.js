@@ -22,6 +22,7 @@ export const ContactForm = ({ addContact }) => {
         return;
     }
   };
+
   const onSubmit = event => {
     event.preventDefault();
     addContact({ name, number });
